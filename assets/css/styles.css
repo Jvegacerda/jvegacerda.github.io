@@ -13,28 +13,31 @@ body {
 
 } 
 
-.navbar a {
-    color: aliceblue;
-}
-
 
 .educacion {
     margin: 1em;
-
     }
 
 
-.experiencia {
-    
-    
+.Experiencia {
+    margin: 1em;    
 }
 
-
-
-
 footer {
-    background-color: black;
+    background-color: rgb(39, 37, 37);
     text-align: center;
     color: aliceblue;
+    object-position: top;
+}
 
+/* Estilos portafolio */
+
+.trabajos {
+    margin: 1em;
+    text-align: center;
+}
+
+.list-group-item img{
+    /* Agregar borde negro */
+    border-radius: 5%;
 }
