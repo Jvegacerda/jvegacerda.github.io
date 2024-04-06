@@ -6,16 +6,30 @@
 
 body {
     background-color: #000000;
+    
 }
 
 
 .educacion {
     margin: 1em;
-    }
+    align-items: center;
+}
 
+.educacion img{
+    border-radius: 50%;
+    width: 20%;
+    border-color: rgb(131, 102, 238);
+    border-width: 5px 30px; 
+    border-style: double;
+}
 
 .Experiencia {
-    margin: 1em;    
+    margin: 1em;
+    
+}
+
+.Experiencia h2{
+    color: aliceblue;
 }
 
 footer {
@@ -23,6 +37,7 @@ footer {
     text-align: center;
     color: aliceblue;
     object-position: top;
+    padding: 1rem;
 }
 
 /* Estilos portafolio */
@@ -30,9 +45,19 @@ footer {
 .trabajos {
     margin: 1em;
     text-align: center;
+    
+}
+
+.trabajos .card {
+    margin: 0 10%;
+    
 }
 
 .list-group-item img{
-    /* Agregar borde negro */
-    border-radius: 5%;
+        width: 60%;
+        border-color: rgb(0, 0, 0);
+        border-width: 2px 10px 5px;
+        border-style: ridge;
+        margin: 1em;
+        border-radius: 10%;
 }
